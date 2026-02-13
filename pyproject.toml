@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "peargent-echo"
+version = "0.1.0"
+authors = [
+  { name="Peargent", email="hello@peargent.com" },
+]
+description = "Official Python SDK for Peargent Echo"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.25.0"
+]
+
+[project.urls]
+"Homepage" = "https://peargent.com/echo"
+"Bug Tracker" = "https://github.com/peargent/echo/issues"
